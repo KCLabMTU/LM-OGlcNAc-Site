@@ -26,7 +26,8 @@ from tqdm import tqdm
 
 def get_protT5_features(sequence):
     # THIS NEEDS TO BE REPLACED BY PROTT5 FEATURE EXTRACTION CODE
-    dummy = np.array([np.ones(1024)]*len(sequence))
+    dummy = np.array([np.random.uniform(size = (len(sequence),1024), low = 0, high = 1)])[0]
+    print(dummy.shape)
     return dummy
 
 # load test sequence
@@ -50,15 +51,16 @@ for seq_record in tqdm(SeqIO.parse(fasta_file, "fasta")):
         
         # check if AA is 'S' or 'T'
         if amino_acid in ['S', 'T']:
+            
             site = index + 1
             
             # get ProtT5 features extracted above
             X_test_pt5 = pt5_all[index]
             
             # load model
-            model = load_model('models/...')
+            model = load_model('models/ANN_Final_Model.h5')
                         
-            y_pred = combined_model.predict(np.array(X_test_pt5.reshape(1,1024)), verbose = 0)[0][0]
+            y_pred = model.predict(np.array(X_test_pt5.reshape(1,1024)), verbose = 0)[0][0]
             
             # append results to results_df
             results_df.loc[len(results_df)] = [prot_id, site, amino_acid, y_pred, int(y_pred>0.5)]
