@@ -15,7 +15,7 @@ Department of Oncology, Lombardi Comprehensive Cancer Center, Georgetown Univers
 <sup>*</sup> Corresponding Author: dbkc@mtu.edu
 
 
-## To run `LM-OGlc-NAc-Site` model on your own sequences 
+## To run `LM-OGlcNAc-Site` model on your own sequences 
 
 In order to predict succinylation site using your own sequence, you need to have two inputs:
 1. Copy sequences you want to predict to `input/sequence.fasta`
