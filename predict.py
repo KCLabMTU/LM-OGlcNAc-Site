@@ -197,9 +197,9 @@ def get_esm2_3B_features(sequence):
 
 # main function--------------------------------------------------------------------------------
 # load models
-prot_t5_model_ann = load_model(prot_t5_model_path)
-esm2_model_ann = load_model(esm2_model_path)
-ankh_model_ann = load_model(ankh_model_path)
+prot_t5_model_ann = load_model(prot_t5_model_path,compile=False)
+esm2_model_ann = load_model(esm2_model_path,compile=False)
+ankh_model_ann = load_model(ankh_model_path,compile=False)
 
 for seq_record in tqdm(SeqIO.parse(input_fasta_file, "fasta")):
     prot_id = seq_record.id
