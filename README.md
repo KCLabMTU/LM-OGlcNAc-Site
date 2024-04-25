@@ -29,4 +29,4 @@ Paper Link: https://www.mdpi.com/1422-0067/24/21/16000
 
 
 ## Contact
-Please send an email to sureshp@mtu.edu (CC: dbkc@mtu.edu, ppratyush@mtu.edu) for any kind of queries and discussions.
+Please send an email to sureshp@mtu.edu (CC: dbkc@mtu.edu, ppratyus@mtu.edu) for any kind of queries and discussions.
