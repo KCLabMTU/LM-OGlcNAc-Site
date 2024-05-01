@@ -68,7 +68,6 @@ keras==2.8.0
 numpy==1.26.4
 pandas==2.2.2
 protobuf==3.20.*
-python==3.10.0
 scikit_learn==1.4.2
 scipy==1.13.0
 tensorflow==2.8.0
