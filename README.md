@@ -58,23 +58,22 @@ To intall the required libraries, run the following command:
 pip install -r requirements.txt
 ```
 Required libraries and versions:
-<code>
-ankh==1.10.0
-Bio==1.7.0
-biopython==1.83
-datasets==2.19.0
-fair_esm==2.0.0
-keras==2.8.0
-numpy==1.26.4
-pandas==2.2.2
-protobuf==3.20.*
-scikit_learn==1.4.2
-scipy==1.13.0
-tensorflow==2.8.0
-torch==2.3.0
-tqdm==4.66.2
-transformers==4.40.1
-</code>
+
+<code>ankh==1.10.0</code> <br>
+<code>Bio==1.7.0</code> <br>
+<code>biopython==1.83</code> <br>
+<code>datasets==2.19.0</code> <br>
+<code>fair_esm==2.0.0</code> <br>
+<code>keras==2.8.0</code> <br>
+<code>numpy==1.26.4</code> <br>
+<code>pandas==2.2.2</code> <br>
+<code>protobuf==3.20.*</code> <br>
+<code>scikit_learn==1.4.2</code> <br>
+<code>scipy==1.13.0</code> <br>
+<code>tensorflow==2.8.0</code> <br>
+<code>torch==2.3.0</code> <br>
+<code>tqdm==4.66.2</code> <br>
+<code>transformers==4.40.1</code> <br>
 
 ## To run `LM-OGlcNAc-Site` model on your own sequences 
 
