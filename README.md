@@ -13,7 +13,7 @@ Integrating Embeddings from Multiple Protein Language Models to Improve Protein 
 <a href="https://numpy.org/"><img alt="numpy" src="https://img.shields.io/badge/numpy-1.26.4-white.svg"/></a>
 <a href="https://pandas.pydata.org/"><img alt="pandas" src="https://img.shields.io/badge/pandas-2.2.2-orange.svg"/></a>
 <a href="https://scikit-learn.org/"><img alt="scikit_learn" src="https://img.shields.io/badge/scikit_learn-1.4.2-blue.svg"/></a>
-<a href="scipy.org"><img alt="SciPy" src="https://img.shields.io/badge/SciPy-1.13.0-navy.svg"/></a>
+<a href="https://scipy.org/"><img alt="SciPy" src="https://img.shields.io/badge/SciPy-1.13.0-navy.svg"/></a>
 <a href="https://www.tensorflow.org/"><img alt="tensorflow" src="https://img.shields.io/badge/TensorFlow-2.8.0-orange.svg"/></a>
 <a href="https://pytorch.org/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.3.0-orange.svg"/></a>
 <a href="https://tqdm.github.io/"><img alt="tqdm" src="https://img.shields.io/badge/tqdm-4.66.2-blue.svg"/></a>
