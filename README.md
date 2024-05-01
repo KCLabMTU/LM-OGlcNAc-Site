@@ -26,7 +26,7 @@ Integrating Embeddings from Multiple Protein Language Models to Improve Protein 
 </p>
 
 ## Webserver
-http://kcdukkalab.org/LMOGlcNAcSite
+http://kcdukkalab.org/LMOGlcNAcSite/
 
 ## Authors
 Suresh Pokharel<sup>1</sup>, Pawel Pratyush<sup>1</sup>, Hamid D. Ismail<sup>1</sup>, Junfeng Ma<sup>2</sup>, Dukka B KC<sup>1*</sup>
