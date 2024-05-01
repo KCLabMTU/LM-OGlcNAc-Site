@@ -48,7 +48,7 @@ git clone github.com:KCLabMTU/LM-OGlcNAc-Site.git
 ###  - Or -
 ## Download the Repository
 If you do not have Git or perfer to download directly:
-Download the repository directly from GitHub. [Click Here](https://github.com/KCLabMTU/LMCrot/archive/refs/heads/main.zip) to download the repository as a zip file.
+Download the repository directly from GitHub. [Click Here](https://github.com/KCLabMTU/LM-OGlcNAc-Site/archive/refs/heads/main.zip) to download the repository as a zip file.
 
 ### Install Libraries 
 Python version: `3.10.0`
