@@ -6,6 +6,7 @@ fair_esm==2.0.0
 keras==2.8.0
 numpy==1.26.4
 pandas==2.2.2
+protobuf==3.20.*
 scikit_learn==1.4.2
 scipy==1.13.0
 tensorflow==2.8.0
