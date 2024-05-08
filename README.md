@@ -101,6 +101,7 @@ python predict.py -i [input_path] --output [output_path]
 Example:
 ```shell
 python predict.py -i input.fasta -o output.csv
+```
 
 ><kbd>**Note:**</kbd>
 > 1. You an always use the '-h' or '--help' flag to get detailed information about the available command-line arguments.
