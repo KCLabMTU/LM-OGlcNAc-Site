@@ -27,11 +27,37 @@ from datasets import load_dataset
 from sklearn import metrics
 from scipy import stats
 
+import argparse
+
+"""
+create an argument parser
+"""
+
+try:
+    parser = argparse.ArgumentParser(description='Command-line arguments for LMOGlcNAc-Site')
+    
+    parser.add_argument('-i', '--input', default = "input/sequene.fasta",
+            help='Specify the path for the input file NOTE - MUST BE A .fasta FILE! Default = input/sequence.fasta')
+    parser.add_argument('-o', '--output', default = "output/results.csv",
+            help='Specify the path for the output file NOTE - MUST BE A .csv FILE! Default = output/results.csv')
+    args = parser.parse_args()
+
+    input_fasta_file = args.input
+    output_csv_file = args.output
+
+except FileNotFoundError:
+    print("Required file not found")
+    sys.exit(1)
+
+except Exception:
+    print('An error occured with the command line arguments, type [python predict.py -h] for more information on how to use them')
+    sys.exit(1)
+
 """
 define file paths and other parameters
 """
-input_fasta_file = "input/sequence.fasta" # load test sequence
-output_csv_file = "output/results.csv" 
+#input_fasta_file = "input/sequence.fasta" # load test sequence
+#output_csv_file = "output/results.csv" 
 prot_t5_model_path = 'models/protT5_model_ann.h5'
 esm2_model_path = 'models/esm3B_model_ann.h5'
 ankh_model_path = 'models/ankh_model_ann.h5'
