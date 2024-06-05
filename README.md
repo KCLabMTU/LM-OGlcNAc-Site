@@ -43,7 +43,7 @@ Department of Oncology, Lombardi Comprehensive Cancer Center, Georgetown Univers
 If Git is installed on your system, clone the repository by running the following command in your terminal:
 
 ```shell
-git clone github.com:KCLabMTU/LM-OGlcNAc-Site.git
+git clone git@github.com:KCLabMTU/LM-OGlcNAc-Site.git
 ```
 ###  - Or -
 ## Download the Repository
@@ -82,6 +82,31 @@ In order to predict succinylation site using your own sequence, you need to have
 2. Run `python predict.py`
 3. Find results inside the `output` folder in a csv file named `results.csv`
 
+
+## Commands
+
+Use the following command to determine input and output files:
+
+```shell
+python predict.py --input [input_path] --output [output_path]
+```
+or in short form notation,
+```shell
+python predict.py -i [input_path] --output [output_path]
+```
+**Replace:**
+`[Input]` with the path of the input file you want to run the model onto MUST BE a .fasta FILE
+`[Output]` with the path of the output file you want the result to be returned to MUST BE A .csv FILE
+
+Example:
+```shell
+python predict.py -i input.fasta -o output.csv
+```
+
+><kbd>**Note:**</kbd>
+> 1. You an always use the '-h' or '--help' flag to get detailed information about the available command-line arguments.
+> 2. You may also utilize the web server [here]
+(http://kcdukkalab.org/LMOGlcNAcSite/)
 ## Citation
 Pokharel, S.; Pratyush, P.; Ismail, H.D.; Ma, J.; KC, D.B. Integrating Embeddings from Multiple Protein Language Models to Improve Protein O-GlcNAc Site Prediction. Int. J. Mol. Sci. 2023, 24, 16000. [https://doi.org/10.3390/ijms242116000](https://doi.org/10.3390/ijms242116000)
 
