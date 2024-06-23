@@ -1,6 +1,6 @@
 <div align="center">
   
-# LM-OGlc-NAc-Site
+# LM-OGlcNAc-Site
 Integrating Embeddings from Multiple Protein Language Models to Improve Protein O-GlcNAc Site Prediction
 
 </div>
