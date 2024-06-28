@@ -213,8 +213,8 @@ def get_esm2_3B_features(sequence):
 
     # Extract per-residue representations (on CPU)
     with torch.no_grad():
-        results = pretrained_model_esm(batch_tokens, repr_layers=[33], return_contacts=True)
-    token_representations = results["representations"][33]
+        results = pretrained_model_esm(batch_tokens, repr_layers=[36], return_contacts=True)
+    token_representations = results["representations"][36]
   
     # return only residue level embeddings so that we can treat them exactly as prott5 features that we are already using
     return token_representations[:,1:-1,:][0]
